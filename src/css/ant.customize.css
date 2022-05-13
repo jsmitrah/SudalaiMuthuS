@@ -1,0 +1,41 @@
+.site-layout-sub-header-background {
+  background: #fff;
+}
+.ant-layout.ant-layout-has-sider{
+  height: 100vh;
+}
+.ant-menu-item{
+  margin-bottom: 10px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+.ant-layout-sider{
+  background: #e8e8e8;
+}
+.ant-layout{
+  background: #fff;
+}
+.site-layout-header{
+  background: #e8e8e8;
+}
+.ant-menu-item:hover {
+  /* .ant-menu-submenu-arrow::before, .ant-menu-submenu-arrow::after { */
+      color:#18ECB5 !important;
+      font-weight: bold;
+      font-size: 13px;
+  /* } */
+}
+
+.ant-menu-item-selected {
+  background-color: #E8E8E8 !important;
+  color:#18ECB5 !important;
+      font-weight: bold;
+      font-size: 13px;
+}
+.ant-input{
+  font-size: 15px;
+  font-weight: 600;
+}
+

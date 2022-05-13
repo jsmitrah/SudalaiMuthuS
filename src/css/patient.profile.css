@@ -1,0 +1,151 @@
+.patent-layout-grid
+{ padding: 50px; 
+  display: flex; 
+  justify-content: space-around
+ }
+
+.upgrade-btn{
+  font-size: 14px;
+  font-weight: 700;
+   color:#316DC4;
+}
+.patient-footer{
+  background-color: #FFF;
+  height: 100px;
+  align-items: center;
+  display: flex;
+}
+.footor-active-profile{
+  color:#D5DBE3;
+  font-weight: 600;
+  
+}
+.storagetxt{
+  color:#D5DBE3;
+  font-weight: 700;
+  font-size: 14px;
+}
+.highLight:hover .storagetxt{
+  color: black;
+}
+.ant-layout-content{
+  flex: none;
+}
+.patient-label{
+  padding: 0px 0px 50px 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.profile-font{
+  font-size: 18px;
+  font-weight: bold;
+}
+.add-plus-icon{
+  font-size: 30px;
+  padding-bottom: 20px;
+  color:#19e8b0 ;
+}
+
+.highLight{ 
+  height: 400px;
+  border-radius: 15px;
+ background:#e8e8e8;
+ width: 100%;
+ /* padding-left: 30px; */
+}
+.highLight:hover {
+ background: #FFF;
+ color: black;
+}
+.patient-add-cell{
+ height: 400px;
+ border-radius: 15px;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ border-style: dashed;
+ border-width: 2px;
+}
+.patient-profile-header-container
+{
+  display: flex;
+  min-height: 600px;
+  justify-content: center;
+  flex-direction: column;
+}
+.search-icon-font{
+    font-size: 25px;
+    color: #000087;
+    padding-right: 10px;
+  }
+  .progress-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 15px;
+  }
+
+/* media queries  */
+
+@media (min-width:1800px)  {
+  .responsive-avatar {
+    width: 150px;
+    height: 120px;
+}
+.patient-card-cell{
+  width: 300px;
+}
+}
+@media (min-width:1440px) and (max-width:2560px)  {
+  .responsive-avatar {
+      width: 140px;
+      height: 140px;
+  }
+}
+
+@media (min-width:1440px) and (max-width:1024px)  {
+  .responsive-avatar {
+      width: 150px;
+      height: 160px;
+  }
+  .patient-card-cell{
+    width: 250px;
+    padding: 0px 10px;
+  }
+ 
+}
+@media (min-width:768px) and (max-width:1024px)  {
+  .responsive-avatar {
+      width: 120px;
+      height: 160px;
+  }
+  .patient-card-cell{
+    width: 230px;
+  }
+  
+}
+
+@media (min-width:565px) and (max-width:800px)  {
+  .responsive-avatar {
+    width: 100px;
+      height: 120px;
+  }
+  .patient-card-cell{
+    width: 200px;
+  }
+  
+}
+
+@media (min-width:320px) and (max-width:565px){
+  .responsive-avatar {
+      height: 40px;
+      width: 50px;
+  }
+  .patient-card-cell{
+    width: 80px;
+  }
+  .profile-font{
+    font-size: 10px;
+  }
+}
